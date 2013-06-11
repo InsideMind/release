@@ -2,7 +2,7 @@
 cd `dirname $0`
 git add --all
 git commit -m "next version"
-git pull
+git pull --strategy=recursive -X ours
 git push
 
 
