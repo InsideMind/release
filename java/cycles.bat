@@ -1,5 +1,4 @@
 @echo off
-name=`dirname $0`
-java -jar $name/cycles.jar %*
-
+set jarName=%~dp0%cycles.jar
+java -jar %jarName% %*
 
