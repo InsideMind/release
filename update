@@ -1,0 +1,7 @@
+#!/bin/ksh
+cd `dirname $0`
+git add --all
+git commit -m "next version"
+git push
+
+
