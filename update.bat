@@ -6,6 +6,7 @@ set gitCmd="c:\Program Files (x86)\Git\bin\git.exe"
 set HOME=%USERPROFILE%
 call %gitCmd% add --all
 call %gitCmd% commit -m "next version"
+call %gitCmd% pull --strategy=recursive -X ours
 call %gitCmd% push
 
 exit /B 0
