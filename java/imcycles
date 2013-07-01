@@ -1,0 +1,3 @@
+#!/bin/bash
+name=`dirname $0`
+java -cp $name/cycles.jar im.apps.cycles.ImCycles $*
